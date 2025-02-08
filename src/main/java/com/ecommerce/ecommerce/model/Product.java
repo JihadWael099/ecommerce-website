@@ -17,7 +17,6 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@EqualsAndHashCode
 public class Product {
 
     @Id
@@ -43,8 +42,8 @@ public class Product {
     private int numRatings;
 
 
-    @ManyToOne
-    private Category category;
+//    @ManyToOne
+//    private Category category;
 
     @ManyToOne
     private Seller seller;

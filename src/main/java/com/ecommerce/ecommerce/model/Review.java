@@ -31,14 +31,11 @@ public class Review {
 
     @JsonIgnore
     @ManyToOne
-    @Column(nullable = false)
     private Product product;
 
 
 
     @ManyToOne
-
-    @Column(nullable = false)
     private User user;
 
     @Column(nullable = false)

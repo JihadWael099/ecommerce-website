@@ -29,4 +29,7 @@ public class Category {
     @NotNull
     private Integer level;
 
+//    @OneToMany
+//    private Product product;
+
 }
